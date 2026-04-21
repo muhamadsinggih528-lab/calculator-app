@@ -1,0 +1,18 @@
+print("=== KALKULATOR ===")
+
+a = float(input("Angka 1: "))
+b = float(input("Angka 2: "))
+
+print("1.Tambah 2.Kurang 3.Kali 4.Bagi")
+pilih = input("Pilih: ")
+
+if pilih == "1":
+    print("Hasil:", a + b)
+elif pilih == "2":
+    print("Hasil:", a - b)
+elif pilih == "3":
+    print("Hasil:", a * b)
+elif pilih == "4":
+    print("Hasil:", a / b)
+else:
+    print("Pilihan tidak valid")
